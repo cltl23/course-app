@@ -1,0 +1,40 @@
+.comment {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10px;
+  margin-bottom: 10px;
+}
+
+.rate {
+  &__images {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 10px;
+  }
+}
+
+.buttons {
+  margin-top: 10px;
+  display: flex;
+  gap: 20px;
+
+  &__download {
+    font-size: 10px;
+    font-weight: 100;
+    padding: 10px;
+    color: #2ec39b;
+    border-radius: 5px;
+  }
+
+  &__continue {
+    font-size: 10px;
+    font-weight: 100;
+    padding: 10px;
+    color: white;
+    background-color: #2ec39b;
+    border: #2ec39b;
+    border-radius: 5px;
+  }
+}

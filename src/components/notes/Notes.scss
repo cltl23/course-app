@@ -1,0 +1,40 @@
+.notes {
+  background-color: white;
+  padding: 2px 10px 15px 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: 100;
+  border-radius: 10px;
+}
+
+textarea {
+  width: 95%;
+  padding: 10px;
+  border-radius: 10px;
+  border: 0.5px lightgray solid;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+
+  &__reset {
+    font-size: 10px;
+    font-weight: 100;
+    background-color: white;
+    padding: 10px 40px 10px 40px;
+    color: #2ec39b;
+    border-radius: 5px;
+  }
+
+  &__save {
+    font-size: 10px;
+    font-weight: 100;
+    padding: 10px 40px 10px 40px;
+    color: white;
+    background-color: #2ec39b;
+    border: #2ec39b;
+    border-radius: 5px;
+  }
+}

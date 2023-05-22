@@ -1,0 +1,48 @@
+.about {
+  border-radius: 10px;
+  font-size: 12px;
+  background-color: white;
+  padding: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+
+  &__header {
+  }
+
+  &__points {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 10px;
+    margin-bottom: 10px;
+  }
+
+  &__category {
+    display: flex;
+    gap: 20px;
+  }
+
+  button {
+    border-width: 0.5px;
+    border-color: lightgray;
+    background-color: white;
+    border-radius: 20px;
+    font-size: 10px;
+  }
+
+  &__info {
+    font-size: 10px;
+  }
+
+  &__instructor {
+    border-top: lightgrey 1px solid;
+    display: flex;
+    align-items: center;
+    font-size: 8px;
+    padding-top: 5px;
+    list-style: none;
+  }
+
+  li {
+    padding: 5px;
+  }
+}
